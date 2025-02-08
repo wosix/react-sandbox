@@ -1,0 +1,25 @@
+{
+    "name": "react-sandbox",
+    "version": "1.0.0",
+    "scripts": {
+        "build-app": "webpack serve --config src/app/dev-script/webpack.js"
+    },
+    "keywords": [],
+    "author": "wojciech woskowiak",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-scripts": "5.0.1",
+        "dotenv-webpack": "8.1.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "5.2.0",
+        "axios": "^1.7.9"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ]
+    }
+}
